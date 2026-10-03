@@ -1,0 +1,55 @@
+# Debugging laboratory
+
+[Concepts](02-CONCEPTS-AND-TRACES.md) · [Practice stories](05-PRACTICE-STORIES.md)
+
+These are deliberately proposed defects for a scratch branch. They are not claims that the shipped reference still contains these bugs. Keep main working and introduce only one change at a time.
+
+## Case 1: The 800px view still has two regions
+
+**Introduce or discuss this mistake:** Change max-width:800px to max-width:799px.
+
+**Discriminating experiment:** Inspect exactly 800px.
+
+### Worked diagnosis
+
+First state the expected contract: The guide stacks its route and exhibit list at max-width:800px, simplifies navigation at max-width:500px, and wraps the deliberately long catalogue identifier at 320px without hiding it. Then create the smallest example from the experiment above. Compare the observed result with the contract before changing more code. The likely cause is at this boundary: **Restore the specified inclusive boundary.**. Repair that boundary, rerun the example, and check one neighboring valid case so the repair does not merely special-case the chosen input.
+
+The completed reasoning record is: symptom → contract violated → input that distinguishes hypotheses → owning line or rule → minimal repair → regression evidence. This is a worked diagnostic route; fill in your actual outputs when you run it. No invented console transcript is supplied.
+
+## Case 2: The long catalogue code is clipped
+
+**Introduce or discuss this mistake:** Hide overflow on the section.
+
+**Discriminating experiment:** Compare the full identifier with what a reader can actually see at 320px.
+
+### Your investigation
+
+1. Write two possible explanations before looking at the hints.
+2. Predict what the experiment would show if each explanation were true.
+3. Run or inspect the smallest discriminating case and record the result.
+4. Identify the owning file and make one bounded repair.
+5. Verify the original case and a neighboring case; explain why both matter.
+
+**Location hint, only after your attempt:** Allow wrapping and shrinking instead of concealing the remainder.
+
+## Case 3: A navigation link does nothing useful
+
+**Introduce or discuss this mistake:** Misspell a room fragment target.
+
+**Discriminating experiment:** Activate the link and inspect the target element ID.
+
+### Your investigation
+
+1. Write two possible explanations before looking at the hints.
+2. Predict what the experiment would show if each explanation were true.
+3. Run or inspect the smallest discriminating case and record the result.
+4. Identify the owning file and make one bounded repair.
+5. Verify the original case and a neighboring case; explain why both matter.
+
+**Location hint, only after your attempt:** Keep link targets and section IDs consistent.
+
+## If the first repair does not work
+
+Do not pile on another unrelated edit. Read the diff and check whether the observed failure changed. If the hypothesis was wrong, write that down and restore only your own experimental change before testing the next hypothesis. A rejected hypothesis is useful progress when its evidence is clear.
+
+When asking an assistant for help, provide the exact input, expected and observed result, the current diff and the file you believe owns the rule. Ask for one counterexample or diagnostic question first. Keep proposed causes separate from demonstrated causes.
