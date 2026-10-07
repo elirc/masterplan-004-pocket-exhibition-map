@@ -14,19 +14,19 @@ The smallest useful result answers this user need: A visitor needs exhibit descr
 
 The visitor needs a short route and a sequence of rooms. The room links refer to real fragment IDs so they remain useful without JavaScript. The route is supporting information, not a separate interactive map service. Limiting the feature to text and local anchors keeps the responsive behavior directly inspectable.
 
-**Pause and produce evidence:** 801px. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
+**Pause and produce evidence:** 500px. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
 
 ## Step 2: Make the desktop relationship explicit
 
 The exhibition container distributes an aside and a content section. The aside takes a bounded share; the section can use the remaining room. Read min-width:0 on the section before examining the long identifier. It gives the section permission to shrink below content-driven minimum sizing, while overflow-wrap decides how the identifier uses that smaller area.
 
-**Pause and produce evidence:** 800px. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
+**Pause and produce evidence:** 801px. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
 
 ## Step 3: Inspect equality at each breakpoint
 
 Set the viewport to 801px and then 800px. Repeat around 501px and 500px. Describe the exact property that changes, rather than saying the page becomes mobile. This is the CSS version of a boundary-value test: equality is part of the contract, not an incidental screenshot dimension.
 
-**Pause and produce evidence:** 500px. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
+**Pause and produce evidence:** 800px. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
 
 ## Step 4: Debug the deliberate stress content
 
@@ -36,7 +36,7 @@ The catalogue identifier is intentionally longer than ordinary text. Temporarily
 
 ## Keep the implementation reviewable
 
-A useful commit has one understandable reason to exist. Separate the initial working slice, the checks that expose its important boundaries, and the teaching material that explains it. The published commits in this repository were assembled from verified working files; they are real commits, not fabricated evidence of a long historical development process. M001 additionally contains the actual two-file baseline and a separate opening-time correction.
+A useful commit has one understandable reason to exist. Separate the initial working slice, the checks that expose its important boundaries, and the teaching material that explains it. The published commits in this repository were assembled from verified working files; they are real commits, not fabricated evidence of a long historical development process.
 
 For your own variation, commit at a point where the behavior and evidence agree. Describe the trigger, the resulting behavior and the check in the commit message or review note. Avoid mixing a rule change with unrelated formatting because it makes the learning decision harder to see.
 

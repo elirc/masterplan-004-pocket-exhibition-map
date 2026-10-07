@@ -6,8 +6,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 
 ## Story 01: Add a fourth room
 
-**User need:** As a learner or user of Pocket Exhibition Map, I want this small improvement so the behavior is easier to use, explain or verify.
-
 **Feature boundary:** Add a room article and its navigation link with a stable ID.
 
 **Implementation plan:**
@@ -26,8 +24,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
 
 ## Story 02: Show a route estimate
-
-**User need:** As a learner or user of Pocket Exhibition Map, I want this small improvement so the behavior is easier to use, explain or verify.
 
 **Feature boundary:** Add a short fictional walking-time estimate as ordinary text.
 
@@ -48,8 +44,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 
 ## Story 03: Create a boundary checklist
 
-**User need:** As a learner or user of Pocket Exhibition Map, I want this small improvement so the behavior is easier to use, explain or verify.
-
 **Feature boundary:** Record observations at 801, 800, 501 and 500 pixels.
 
 **Implementation plan:**
@@ -68,8 +62,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
 
 ## Story 04: Improve a long identifier label
-
-**User need:** As a learner or user of Pocket Exhibition Map, I want this small improvement so the behavior is easier to use, explain or verify.
 
 **Feature boundary:** Add descriptive context before the catalogue code without shortening the value.
 
@@ -90,8 +82,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 
 ## Story 05: Add a reduced-motion policy
 
-**User need:** As a learner or user of Pocket Exhibition Map, I want this small improvement so the behavior is easier to use, explain or verify.
-
 **Feature boundary:** If you experiment with smooth scrolling, add a reduced-motion alternative.
 
 **Implementation plan:**
@@ -110,8 +100,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
 
 ## Story 06: Improve narrow spacing
-
-**User need:** As a learner or user of Pocket Exhibition Map, I want this small improvement so the behavior is easier to use, explain or verify.
 
 **Feature boundary:** Adjust the 500px rule after inspecting actual content crowding.
 

@@ -104,9 +104,9 @@ Look for a concrete connection to `public/style.css` or `public/index.html and p
 
 **First hint:** The desired improvement is “Help a reader orient after following an anchor.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Add a :target style to room articles; retain readable text; inspect target styling at each breakpoint.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Add a :target style to room articles; retain readable text; inspect target styling at each breakpoint. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: Following a room link highlights the right article without hiding its heading.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: Following a room link highlights the right article without hiding its heading. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose a non-color-only visual cue. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -114,9 +114,9 @@ Look for a concrete connection to `public/style.css` or `public/index.html and p
 
 **First hint:** The desired improvement is “Shorten navigation from long exhibit descriptions.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Create a stable route ID; add descriptive local links; inspect focus and source order.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Create a stable route ID; add descriptive local links; inspect focus and source order. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: Every return link reaches the intended route section at narrow widths.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: Every return link reaches the intended route section at narrow widths. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose which rooms need the link. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -124,9 +124,9 @@ Look for a concrete connection to `public/style.css` or `public/index.html and p
 
 **First hint:** The desired improvement is “Explain the content without new layout infrastructure.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Add a semantic list inside one article; include a long material name; inspect shrink and wrap behavior.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Add a semantic list inside one article; include a long material name; inspect shrink and wrap behavior. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: New content fits at 320px without clipping the catalogue code.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: New content fits at 320px without clipping the catalogue code. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose the list density. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -134,9 +134,9 @@ Look for a concrete connection to `public/style.css` or `public/index.html and p
 
 **First hint:** The desired improvement is “Explain a temporarily unavailable fictional exhibit.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Add textual status near its heading; retain navigation context; define whether the article remains listed.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Add textual status near its heading; retain navigation context; define whether the article remains listed. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: A reader understands the unavailable state without relying on color.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: A reader understands the unavailable state without relying on color. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose how much old description to retain. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -144,9 +144,9 @@ Look for a concrete connection to `public/style.css` or `public/index.html and p
 
 **First hint:** The desired improvement is “Help visitors interpret the route.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Add consistent text labels to room articles; update the route summary; check heading hierarchy.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Add consistent text labels to room articles; update the route summary; check heading hierarchy. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: Route and room information agree without duplicate confusing headings.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: Route and room information agree without duplicate confusing headings. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose the level vocabulary. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -154,9 +154,9 @@ Look for a concrete connection to `public/style.css` or `public/index.html and p
 
 **First hint:** The desired improvement is “Investigate an alternative on a practice branch.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Slowly shrink the viewport; record the first content failure; propose a boundary supported by that observation.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Slowly shrink the viewport; record the first content failure; propose a boundary supported by that observation. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: The decision cites the failing content and preserves all room anchors.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: The decision cites the failing content and preserves all room anchors. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose whether the exercise boundary should change. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -164,9 +164,9 @@ Look for a concrete connection to `public/style.css` or `public/index.html and p
 
 **First hint:** The desired improvement is “Adapt the same content for paper.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Inspect print preview; decide how route and exhibits should order; remove only unnecessary decoration.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Inspect print preview; decide how route and exhibits should order; remove only unnecessary decoration. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: All identifiers and room names remain available on the printed pages.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: All identifiers and room names remain available on the printed pages. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose page-break policy. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -174,9 +174,9 @@ Look for a concrete connection to `public/style.css` or `public/index.html and p
 
 **First hint:** The desired improvement is “Check content pressure beyond viewport width.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Enlarge text; inspect navigation and catalogue wrapping; identify any rigid dimensions.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Enlarge text; inspect navigation and catalogue wrapping; identify any rigid dimensions. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: Content remains available and the report distinguishes zoom from viewport changes.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: Content remains available and the report distinguishes zoom from viewport changes. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose a repeatable enlargement procedure. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -184,9 +184,9 @@ Look for a concrete connection to `public/style.css` or `public/index.html and p
 
 **First hint:** The desired improvement is “Explain why one document works in two layouts.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Draw the DOM reading sequence; mark wide-screen relationships; show the narrow stack using the same sequence.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Draw the DOM reading sequence; mark wide-screen relationships; show the narrow stack using the same sequence. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: The diagram does not imply visual reordering that the source lacks.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: The diagram does not imply visual reordering that the source lacks. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose a compact diagram notation. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 

@@ -1,7 +1,6 @@
 # Reading sources and provenance
 
 - [MDN media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries): platform terminology related to the main lesson.
-- [Node test runner](https://nodejs.org/api/test.html): the built-in runner used for executable reference checks.
 - [GitHub checkout action](https://github.com/actions/checkout) and [setup-node action](https://github.com/actions/setup-node): official workflow setup references, checked on 2026-10-03.
 - [responsive-web-design-I](https://github.com/elirc/responsive-web-design-I): the existing curriculum pairing. This repository is a new small implementation, not a copied source snapshot.
 

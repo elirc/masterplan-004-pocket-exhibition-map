@@ -6,9 +6,9 @@ There are intentionally no complete feature patches here. Use one hint, return t
 
 ## Story 01: Add a fourth room
 
-**Hint 1 — ownership:** Begin from `.exhibition and .exhibit-code`. Add a room article and its navigation link with a stable ID.
+**Hint 1 — ownership:** Begin from the `nav` links and `article` IDs in `public/index.html`. Add a room article and its navigation link with a stable ID.
 
-**Hint 2 — reasoning:** Revisit the decision “Use the requested breakpoints explicitly”. Ask yourself: Explain why max-width includes the named width.
+**Hint 2 — reasoning:** Revisit the decision “Keep the reading order stable”. Ask yourself: Explain what a screen reader or stylesheet-free view encounters first.
 
 **Answer direction:** A defensible solution demonstrates this observable result: The link resolves and the article remains readable at 320px. The exact code is not prescribed. If your change achieves that result by changing an unrelated original rule, revise either the implementation or the story contract explicitly.
 
@@ -16,9 +16,9 @@ There are intentionally no complete feature patches here. Use one hint, return t
 
 ## Story 02: Show a route estimate
 
-**Hint 1 — ownership:** Begin from `.exhibition and .exhibit-code`. Add a short fictional walking-time estimate as ordinary text.
+**Hint 1 — ownership:** Begin from the route `aside.panel` in `public/index.html`. Add a short fictional walking-time estimate as ordinary text.
 
-**Hint 2 — reasoning:** Revisit the decision “Repair the cause of overflow”. Ask yourself: Distinguish wrapping a token from clipping its tail.
+**Hint 2 — reasoning:** Revisit the decision “Keep the reading order stable”. Ask yourself: Explain what a screen reader or stylesheet-free view encounters first.
 
 **Answer direction:** A defensible solution demonstrates this observable result: The estimate does not depend on an image or hover state. The exact code is not prescribed. If your change achieves that result by changing an unrelated original rule, revise either the implementation or the story contract explicitly.
 
@@ -26,9 +26,9 @@ There are intentionally no complete feature patches here. Use one hint, return t
 
 ## Story 03: Create a boundary checklist
 
-**Hint 1 — ownership:** Begin from `.exhibition and .exhibit-code`. Record observations at 801, 800, 501 and 500 pixels.
+**Hint 1 — ownership:** Begin from the 800px and 500px media rules in `public/style.css`. Record observations at 801, 800, 501 and 500 pixels.
 
-**Hint 2 — reasoning:** Revisit the decision “Keep the reading order stable”. Ask yourself: Explain what a screen reader or stylesheet-free view encounters first.
+**Hint 2 — reasoning:** Revisit the decision “Use the requested breakpoints explicitly”. Ask yourself: Explain why max-width includes the named width.
 
 **Answer direction:** A defensible solution demonstrates this observable result: Each entry identifies the property and expected arrangement. The exact code is not prescribed. If your change achieves that result by changing an unrelated original rule, revise either the implementation or the story contract explicitly.
 
@@ -36,9 +36,9 @@ There are intentionally no complete feature patches here. Use one hint, return t
 
 ## Story 04: Improve a long identifier label
 
-**Hint 1 — ownership:** Begin from `.exhibition and .exhibit-code`. Add descriptive context before the catalogue code without shortening the value.
+**Hint 1 — ownership:** Begin from the `.exhibit-code` paragraph and its rule. Add descriptive context before the catalogue code without shortening the value.
 
-**Hint 2 — reasoning:** Revisit the decision “Use the requested breakpoints explicitly”. Ask yourself: Explain why max-width includes the named width.
+**Hint 2 — reasoning:** Revisit the decision “Repair the cause of overflow”. Ask yourself: Distinguish wrapping a token from clipping its tail.
 
 **Answer direction:** A defensible solution demonstrates this observable result: The full value remains available and its purpose is clear. The exact code is not prescribed. If your change achieves that result by changing an unrelated original rule, revise either the implementation or the story contract explicitly.
 
@@ -46,9 +46,9 @@ There are intentionally no complete feature patches here. Use one hint, return t
 
 ## Story 05: Add a reduced-motion policy
 
-**Hint 1 — ownership:** Begin from `.exhibition and .exhibit-code`. If you experiment with smooth scrolling, add a reduced-motion alternative.
+**Hint 1 — ownership:** Begin from `public/style.css`. If you experiment with smooth scrolling, add a reduced-motion alternative.
 
-**Hint 2 — reasoning:** Revisit the decision “Repair the cause of overflow”. Ask yourself: Distinguish wrapping a token from clipping its tail.
+**Hint 2 — reasoning:** Revisit the decision “Use the requested breakpoints explicitly”. Ask yourself: Explain why max-width includes the named width.
 
 **Answer direction:** A defensible solution demonstrates this observable result: Navigation remains usable with motion reduction enabled. The exact code is not prescribed. If your change achieves that result by changing an unrelated original rule, revise either the implementation or the story contract explicitly.
 
@@ -56,9 +56,9 @@ There are intentionally no complete feature patches here. Use one hint, return t
 
 ## Story 06: Improve narrow spacing
 
-**Hint 1 — ownership:** Begin from `.exhibition and .exhibit-code`. Adjust the 500px rule after inspecting actual content crowding.
+**Hint 1 — ownership:** Begin from the 500px media rule in `public/style.css`. Adjust the 500px rule after inspecting actual content crowding.
 
-**Hint 2 — reasoning:** Revisit the decision “Keep the reading order stable”. Ask yourself: Explain what a screen reader or stylesheet-free view encounters first.
+**Hint 2 — reasoning:** Revisit the decision “Use the requested breakpoints explicitly”. Ask yourself: Explain why max-width includes the named width.
 
 **Answer direction:** A defensible solution demonstrates this observable result: No essential content disappears and the reason for the change is recorded. The exact code is not prescribed. If your change achieves that result by changing an unrelated original rule, revise either the implementation or the story contract explicitly.
 
